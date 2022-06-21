@@ -24,7 +24,7 @@ def operacion():
     decs = input("¿Quieres hacer otro calculo? (si, no): ")
     if decs == "si":
         return operacion()
-    if decs == "no":
+    elif decs == "no":
         print("Gracias por utilizarme, ten un buen día :D")
         time.sleep(5)
 
